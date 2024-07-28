@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span>MO</span>
+        </div>
+        <div id="messages" class="messages">
+            <!-- Messages will be appended here -->
+        </div>
+        <button id="newPostBtn" class="new-post-btn">✏️</button>
+    </div>
+
+    <!-- New Post Modal -->
+    <div id="newPostModal" class="modal">
+        <div class="modal-content">
+            <textarea id="newPostText" placeholder="Type your message..."></textarea>
+            <button id="postBtn">Post</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
